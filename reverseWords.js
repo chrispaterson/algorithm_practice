@@ -26,8 +26,6 @@ function reverseWords(message) {
       } else if (i === message.length - 1) {
         
         reverseSegment(lastIndex, i, message);
-        i ++;
-        lastIndex = i;
       }
     }
 }
