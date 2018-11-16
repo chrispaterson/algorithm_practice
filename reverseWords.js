@@ -1,4 +1,3 @@
-
 // reverse the string in place based on a right and left
 // boundary (basically a swap function)
 function reverseSegment(left, right, str) {
