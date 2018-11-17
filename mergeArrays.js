@@ -10,7 +10,7 @@
 // our arrays of orders into one sorted array.
 //
 // For Example:
-var myArray     = [3, 4, 6, 10, 11, 15];
+var myArray     = [3, 4, 6, 10, 11, 17];
 var alicesArray = [1, 5, 8, 12, 14, 19];
 
 console.log(mergeArrays(myArray, alicesArray));
@@ -43,7 +43,7 @@ function mergeArrays(ar1, ar2) {
 
       retr[i] = ar2[ar2Idx];
       ar2Idx++;
-    } else {
+    } else if(ar1[ar1Idx] < ar2[ar2Idx]){
 
       retr[i] = ar1[ar1Idx];
       ar1Idx++;
