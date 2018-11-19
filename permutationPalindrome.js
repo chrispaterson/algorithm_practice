@@ -15,10 +15,7 @@ function isPPalindrome(word) {
 
   for(let i = 0; i < word.length && numOdds < 2; i++) {
 
-    if(counts[word[i]] & 1) {
-
-      numOdds ++;
-    }
+    numOdds += (counts[word[i]] & 1);
   }
   
   return (numOdds < 2);
