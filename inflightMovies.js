@@ -1,6 +1,5 @@
 function canTwoMoviesFillFlight(movieLengths, flightLength) {
 
-  debugger;
   // Movie lengths we've seen so far
   const movieLengthsSeen = new Set();
 

@@ -3,7 +3,6 @@ function containsLetters(str, ofStr) {
   let test = {};
   let retr = true;
 
-  debugger;
   if(str.length !== ofStr.length) {
     return false;
   }
